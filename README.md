@@ -101,8 +101,8 @@ shutdown -r now 立刻重启(root用户使用)
 http://mp.weixin.qq.com/s?__biz=MjM5ODI5Njc2MA==&mid=2655807432&idx=1&sn=6ee6af53f1fbaee19960446afba1b575&scene=0
 
 <h4>5.git 教程相关</h4>
-1.http://www.yiibai.com/git/git_pull.html
+1.http://www.yiibai.com/git/git_pull.html<br>
 2.30 分钟 git 命令入门:<br>
-http://mp.weixin.qq.com/s?__biz=MjM5OTA1MDUyMA==&mid=2655436216&idx=1&sn=07cb1ceab6cf16fdf311d801739563b3&scene=23&srcid=0629eCqdpgkfEhljVPB6Iork#rd
+http://mp.weixin.qq.com/s?__biz=MjM5OTA1MDUyMA==&mid=2655436216&idx=1&sn=07cb1ceab6cf16fdf311d801739563b3&scene=23&srcid=0629eCqdpgkfEhljVPB6Iork#rd<br>
 3.手把手教你用 Git:<br>
 http://mp.weixin.qq.com/s?__biz=MjM5OTA1MDUyMA==&mid=403636269&idx=2&sn=62d8327286c6ca8bd8898f51755ecdba&scene=21#wechat_redirect
