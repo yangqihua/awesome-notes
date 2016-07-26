@@ -66,6 +66,11 @@ mysql > FLUSH PRIVILEGES;
 	default_character_set=utf8<br>
 	[mysqld]<br>
 	default_character_set=utf8
+	
+(3).重启数据库服务：
+	chkconfig --levels 235 mysqld on
+
+	/etc/init.d/mysqld start
 
 5.新建数据库：CREATE DATABASE `test2` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci
 
@@ -93,6 +98,12 @@ yum remove php  php-bcmath php-cli php-common  php-devel php-fpm    php-gd php-i
 rpm -Uvh http://mirror.webtatic.com/yum/el6/latest.rpm
   
 yum install php55w  php55w-bcmath php55w-cli php55w-common  php55w-devel php55w-fpm    php55w-gd php55w-imap  php55w-ldap php55w-mbstring php55w-mcrypt php55w-mysql   php55w-odbc   php55w-pdo   php55w-pear  php55w-pecl-igbinary  php55w-xml php55w-xmlrpc php55w-opcache php55w-intl php55w-pecl-memcache
+
+目前php55w-mcrypt可能使用不了，可以考虑：
+
+
+yum install php55w  php55w-bcmath php55w-cli php55w-common  php55w-devel php55w-fpm    php55w-gd php55w-imap  php55w-ldap php55w-mbstring php55w-mysql   php55w-odbc   php55w-pdo   php55w-pear  php55w-pecl-igbinary  php55w-xml php55w-xmlrpc php55w-opcache php55w-intl php55w-pecl-memcache
+
 
 重启centos：
 shutdown -r now 立刻重启(root用户使用)
