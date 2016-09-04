@@ -119,7 +119,7 @@ http://mp.weixin.qq.com/s?__biz=MjM5ODI5Njc2MA==&mid=2655807432&idx=1&sn=6ee6af5
 - [Git Push 免输用户名和密码](http://www.jianshu.com/p/f54053afecf2)，这种方法是将用户名和密码存入cache，一定时间后会失效
 - [git-ssh 配置和使用](https://segmentfault.com/a/1190000002645623)，永远不需要输入密码
 - [官网配置ssh](https://help.github.com/articles/generating-an-ssh-key/)
-- [git bash配置beyond compare](http://www.scootersoftware.com/support.php?zz=kb_vcs#gitwindows)，先安装beyond compare[beyond compare下载地址](http://www.scootersoftware.com/download.php)
+- [git bash配置beyond compare](http://www.scootersoftware.com/support.php?zz=kb_vcs#gitwindows)，先安装beyond compare，[beyond compare下载地址](http://www.scootersoftware.com/download.php)
 	- 1.``` git config --global diff.tool bc ```
 	- 2.``` git config --global difftool.bc.path "E:/software_install/beyond_compare/install/Beyond Compare 4/bcomp.exe" ```
 	- 3.``` git config --global merge.tool bc ```
