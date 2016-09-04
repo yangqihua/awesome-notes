@@ -125,6 +125,6 @@ http://mp.weixin.qq.com/s?__biz=MjM5ODI5Njc2MA==&mid=2655807432&idx=1&sn=6ee6af5
 	- 3：``` git config --global merge.tool bc ```
 	- 4：``` git config --global mergetool.bc.path "E:/software_install/beyond_compare/install/Beyond Compare 4/bcomp.exe ```
 	- 5：使用 ``` git difftool foofile.txt ``` 查看foofile.txt与HEAD版本的差异
-	-:6：使用 ``` git mergetool foofile.txt ``` merge foofile.txt文件
+	- 6：使用 ``` git mergetool foofile.txt ``` merge foofile.txt文件
 
 ## Linux常见命令：
