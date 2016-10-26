@@ -81,7 +81,13 @@ source /usr/local/tomcat/jiajiao.sql
 7.远程连接数据库：
 
 http://www.fantxi.com/blog/archives/enable-remote-access-mysql-centos/
-
+- 具体如下：
+	- ``` mysql -u root -p mysql # 第1个mysql是执行命令，第2个mysql是系统数据名称 ```
+	- ``` grant all privileges on *.* to 'root'@'%' identified by '123456' with grant option; ```
+	- ``` flush privileges; exit;# 重载系统权限并退出 ```
+	- ``` iptables -I INPUT -p tcp -m state --state NEW -m tcp --dport 3306 -j ACCEPT ```
+	- ``` service iptables save ```
+	- ``` /etc/init.d/mysqld start ```
 
 <h4>3.redis配置相关</h4>
 
