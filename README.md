@@ -132,5 +132,18 @@ http://mp.weixin.qq.com/s?__biz=MjM5ODI5Njc2MA==&mid=2655807432&idx=1&sn=6ee6af5
 	- 4：``` git config --global mergetool.bc.path "E:/software_install/beyond_compare/install/Beyond Compare 4/bcomp.exe ```
 	- 5：使用 ``` git difftool foofile.txt ``` 查看foofile.txt与HEAD版本的差异
 	- 6：使用 ``` git mergetool foofile.txt ``` merge foofile.txt文件
-
+	
+- git 进阶常用命令：
+	- 1: 查看最近commit记录（仅包括commit）：``` git log ```
+	- 2: 查看历史变动记录（包括commit，reset等记录): ``` git reflog ```	
+	- 3: 查看最近一次commit记录：``` git log -n 1```
+	- 4: 查看最近一次commit的修改记录： ``` git log -n 1 --stat ```
+	- 5: 查看最近一次commit的修改文件细节： ``` git log -n 1 -p ```
+	- 6: 撤销本地未提交的修改：``` git checkout filename ``` ,其中filename支持正则匹配。
+	- 7: 版本回退到某一次commit(此次之后的commit的会消失)，此次之后的修改内容都会被退回到add暂存区：``` git reset HEAD~2 ```,表示回退两个版本，这两个版本的修改内容会存在add暂存区，其中的HEAD~2还可以用commit—id回退到指定的commit,其中的HEAD~2还可以用filename代替表示取消某个文件的add操作（从暂存区丢弃该file）。
+	- 8: 撤销本地修改（add之前的修改,丢弃工作目录的修改）：``` git checkout filename ```
+	- 9: 创建一次新的 commit 来撤销一次某次 commit 所做出的修改: ``` git revert HEAD~2 ```,跟reset操作类似。
+	- 10: git checkout/reset/revert的区别见：[1.git reset, git checkout, git revert 区别 (译)](http://www.tuicool.com/articles/aiAnuuz),[2.git reset, revert, checkout介绍及区别](http://chuansong.me/n/293582251542)
+	- 11: 将本地commit强行覆盖远程仓库，这类操作比较比较危险，例如：在你的commit 3之后别人又提交了新的commit 4，那在你强制推送之后，那位仁兄的commit 4也跟着一起消失了。 ``` git push --force ```
+	- 12: 强行将远程代码覆盖本地代码，``` git fetch --all ```,``` git reset --hard origin/master ```,``` git fetch ```,下载远程最新的， 然后，``` git reset master ```,分支重置
 ## Linux常见命令：
