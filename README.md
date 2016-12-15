@@ -146,5 +146,6 @@ http://mp.weixin.qq.com/s?__biz=MjM5ODI5Njc2MA==&mid=2655807432&idx=1&sn=6ee6af5
 	- 10: git checkout/reset/revert的区别见：[1.git reset, git checkout, git revert 区别 (译)](http://www.tuicool.com/articles/aiAnuuz),[2.git reset, revert, checkout介绍及区别](http://chuansong.me/n/293582251542)
 	- 11: 将本地commit强行覆盖远程仓库，这类操作比较比较危险，例如：在你的commit 3之后别人又提交了新的commit 4，那在你强制推送之后，那位仁兄的commit 4也跟着一起消失了。 ``` git push --force ```
 	- 12: 强行将远程代码覆盖本地代码，``` git fetch --all ```,``` git reset --hard origin/master ```,``` git fetch ```,下载远程最新的， 然后，``` git reset master ```,分支重置
-	- 13: 让.gitignore文件生效：``` git rm -r --cached . ``` , ``` git add . ``` , ``` git commit -m 'update .gitignore' ```
+	- 13: 让.gitignore文件生效：``` git rm -r --cached . ``` , ``` git add . ``` , ``` git commit -m 'update .gitignore' ```。
+	
 ## Linux常见命令：
