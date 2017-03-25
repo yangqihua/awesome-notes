@@ -30,6 +30,8 @@ this is some awesome notes including lots of links in the internet to setup many
 
 14.tomcat安装：http://www.cnblogs.com/zhoulf/archive/2013/02/04/2891633.html
 
+15.centos安装java：yum -y install java-1.8.0-openjdk*
+
 <h4>2.mysql安装卸载，配置相关</h4>
 
 1.mysql重启: /etc/init.d/mysqld restart  
