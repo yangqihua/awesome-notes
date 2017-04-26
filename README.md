@@ -32,6 +32,18 @@ this is some awesome notes including lots of links in the internet to setup many
 
 15.centos安装java：yum -y install java-1.8.0-openjdk*
 
+16.centos开启防火墙的某个端口：
+```
+添加
+firewall-cmd --zone=public --add-port=80/tcp --permanent    （--permanent永久生效，没有此参数重启后失效）
+重新载入
+firewall-cmd --reload
+查看
+firewall-cmd --zone=public --query-port=80/tcp
+删除
+firewall-cmd --zone=public --remove-port=80/tcp --permanent
+```
+
 <h4>2.mysql安装卸载，配置相关</h4>
 
 1.mysql重启: /etc/init.d/mysqld restart  
