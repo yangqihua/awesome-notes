@@ -132,14 +132,14 @@ shutdown -r now 立刻重启(root用户使用)
 http://mp.weixin.qq.com/s?__biz=MjM5ODI5Njc2MA==&mid=2655807432&idx=1&sn=6ee6af53f1fbaee19960446afba1b575&scene=0
 
 <h4>5.git 教程相关</h4>
-- [教程1](http://www.yiibai.com/git/git_pull.html)
-- [30分钟git命令入门](http://mp.weixin.qq.com/s?__biz=MjM5OTA1MDUyMA==&mid=2655436216&idx=1&sn=07cb1ceab6cf16fdf311d801739563b3&scene=23&srcid=0629eCqdpgkfEhljVPB6Iork#rd)
-- [手把手教你用Git](http://mp.weixin.qq.com/s?__biz=MjM5OTA1MDUyMA==&mid=403636269&idx=2&sn=62d8327286c6ca8bd8898f51755ecdba&scene=21#wechat_redirect)
-- [github上Fork 别人的项目后的常用的操作指南](http://it.taocms.org/10/5831.htm)
-- [Git Push 免输用户名和密码](http://www.jianshu.com/p/f54053afecf2)，这种方法是将用户名和密码存入cache，一定时间后会失效
-- [git-ssh 配置和使用](https://segmentfault.com/a/1190000002645623)，永远不需要输入密码
-- [官网配置ssh](https://help.github.com/articles/generating-an-ssh-key/)
-- [git bash配置beyond compare](http://www.scootersoftware.com/support.php?zz=kb_vcs#gitwindows)，先安装beyond compare，[beyond compare下载地址](http://www.scootersoftware.com/download.php)，在git bash里面输入以下命令配置
+1.[教程1](http://www.yiibai.com/git/git_pull.html)
+2.[30分钟git命令入门](http://mp.weixin.qq.com/s?__biz=MjM5OTA1MDUyMA==&mid=2655436216&idx=1&sn=07cb1ceab6cf16fdf311d801739563b3&scene=23&srcid=0629eCqdpgkfEhljVPB6Iork#rd)
+3.[手把手教你用Git](http://mp.weixin.qq.com/s?__biz=MjM5OTA1MDUyMA==&mid=403636269&idx=2&sn=62d8327286c6ca8bd8898f51755ecdba&scene=21#wechat_redirect)
+4.[github上Fork 别人的项目后的常用的操作指南](http://it.taocms.org/10/5831.htm)
+5.[Git Push 免输用户名和密码](http://www.jianshu.com/p/f54053afecf2)，这种方法是将用户名和密码存入cache，一定时间后会失效
+6.[git-ssh 配置和使用](https://segmentfault.com/a/1190000002645623)，永远不需要输入密码
+7.[官网配置ssh](https://help.github.com/articles/generating-an-ssh-key/)
+8.[git bash配置beyond compare](http://www.scootersoftware.com/support.php?zz=kb_vcs#gitwindows)，先安装beyond compare，[beyond compare下载地址](http://www.scootersoftware.com/download.php)，在git bash里面输入以下命令配置
 	- 1：``` git config --global diff.tool bc ```
 	- 2：``` git config --global difftool.bc.path "E:/software_install/beyond_compare/install/Beyond Compare 4/bcomp.exe" ```
 	- 3：``` git config --global merge.tool bc ```
@@ -154,7 +154,7 @@ http://mp.weixin.qq.com/s?__biz=MjM5ODI5Njc2MA==&mid=2655807432&idx=1&sn=6ee6af5
 	- 4: 查看最近一次commit的修改记录： ``` git log -n 1 --stat ```
 	- 5: 查看最近一次commit的修改文件细节： ``` git log -n 1 -p ```
 	- 6: 撤销本地未提交的修改：``` git checkout filename ``` ,其中filename支持正则匹配。
-	- 7: 版本回退到某一次commit(此次之后的commit的会消失)，此次之后的修改内容都会被退回到add暂存区：``` git reset HEAD~2 ```,表示回退两个版本，这两个版本的修改内容会存在add暂存区，其中的HEAD~2还可以用commit—id回退到指定的commit,其中的HEAD~2还可以用filename代替表示取消某个文件的add操作（从暂存区丢弃该file）。
+	- 7: 版本回退到某一次commit(此次之后的commit的会消失)，此次之后的修改内容都会被退回到add暂存区：``` git reset HEAD~2 ```,表示回退两个版本，这两个版本的修改内容会存在add暂存区，其中的HEAD~2还可以用commit—id回退到指定的commit,可以用filename代替表示取消某个文件的add操作（从暂存区丢弃该file）。
 	- 8: 撤销本地修改（add之前的修改,丢弃工作目录的修改）：``` git checkout filename ```
 	- 9: 创建一次新的 commit 来撤销一次某次 commit 所做出的修改: ``` git revert HEAD~2 ```,跟reset操作类似。
 	- 10: git checkout/reset/revert的区别见：[1.git reset, git checkout, git revert 区别 (译)](http://www.tuicool.com/articles/aiAnuuz),[2.git reset, revert, checkout介绍及区别](http://chuansong.me/n/293582251542)
