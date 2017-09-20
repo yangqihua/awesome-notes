@@ -132,14 +132,21 @@ shutdown -r now 立刻重启(root用户使用)
 http://mp.weixin.qq.com/s?__biz=MjM5ODI5Njc2MA==&mid=2655807432&idx=1&sn=6ee6af53f1fbaee19960446afba1b575&scene=0
 
 <h4>5.git 教程相关</h4>
-1.[教程1](http://www.yiibai.com/git/git_pull.html)
-2.[30分钟git命令入门](http://mp.weixin.qq.com/s?__biz=MjM5OTA1MDUyMA==&mid=2655436216&idx=1&sn=07cb1ceab6cf16fdf311d801739563b3&scene=23&srcid=0629eCqdpgkfEhljVPB6Iork#rd)
-3.[手把手教你用Git](http://mp.weixin.qq.com/s?__biz=MjM5OTA1MDUyMA==&mid=403636269&idx=2&sn=62d8327286c6ca8bd8898f51755ecdba&scene=21#wechat_redirect)
-4.[github上Fork 别人的项目后的常用的操作指南](http://it.taocms.org/10/5831.htm)
-5.[Git Push 免输用户名和密码](http://www.jianshu.com/p/f54053afecf2)，这种方法是将用户名和密码存入cache，一定时间后会失效
-6.[git-ssh 配置和使用](https://segmentfault.com/a/1190000002645623)，永远不需要输入密码
-7.[官网配置ssh](https://help.github.com/articles/generating-an-ssh-key/)
-8.[git bash配置beyond compare](http://www.scootersoftware.com/support.php?zz=kb_vcs#gitwindows)，先安装beyond compare，[beyond compare下载地址](http://www.scootersoftware.com/download.php)，在git bash里面输入以下命令配置
+- 1.[教程1](http://www.yiibai.com/git/git_pull.html)
+
+- 2.[30分钟git命令入门](http://mp.weixin.qq.com/s?__biz=MjM5OTA1MDUyMA==&mid=2655436216&idx=1&sn=07cb1ceab6cf16fdf311d801739563b3&scene=23&srcid=0629eCqdpgkfEhljVPB6Iork#rd)
+
+- 3.[手把手教你用Git](http://mp.weixin.qq.com/s?__biz=MjM5OTA1MDUyMA==&mid=403636269&idx=2&sn=62d8327286c6ca8bd8898f51755ecdba&scene=21#wechat_redirect)
+
+- 4.[github上Fork 别人的项目后的常用的操作指南](http://it.taocms.org/10/5831.htm)
+
+- 5.[Git Push 免输用户名和密码](http://www.jianshu.com/p/f54053afecf2)，这种方法是将用户名和密码存入cache，一定时间后会失效
+
+- 6.[git-ssh 配置和使用](https://segmentfault.com/a/1190000002645623)，永远不需要输入密码
+
+- 7.[官网配置ssh](https://help.github.com/articles/generating-an-ssh-key/)
+
+- 8.[git bash配置beyond compare](http://www.scootersoftware.com/support.php?zz=kb_vcs#gitwindows)，先安装beyond compare，[beyond compare下载地址](http://www.scootersoftware.com/download.php)，在git bash里面输入以下命令配置
 	- 1：``` git config --global diff.tool bc ```
 	- 2：``` git config --global difftool.bc.path "E:/software_install/beyond_compare/install/Beyond Compare 4/bcomp.exe" ```
 	- 3：``` git config --global merge.tool bc ```
