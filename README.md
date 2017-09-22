@@ -16,8 +16,6 @@ this is some awesome notes including lots of links in the internet to setup many
 
 8.重启Apache: service httpd restart 
 
-
-
 9.关闭tomcat服务器: /usr/local/tomcat/bin/shutdown.sh 
 
 10.开启tomcat服务器:/usr/local/tomcat/bin/startup.sh 
