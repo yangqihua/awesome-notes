@@ -126,8 +126,7 @@ yum install php55w  php55w-bcmath php55w-cli php55w-common  php55w-devel php55w-
 重启centos：
 shutdown -r now 立刻重启(root用户使用)
 
-正则表达式验证：
-http://mp.weixin.qq.com/s?__biz=MjM5ODI5Njc2MA==&mid=2655807432&idx=1&sn=6ee6af53f1fbaee19960446afba1b575&scene=0
+[正则表达式验证](http://mp.weixin.qq.com/s?__biz=MjM5ODI5Njc2MA==&mid=2655807432&idx=1&sn=6ee6af53f1fbaee19960446afba1b575&scene=0)
 
 <h4>5.git 教程相关</h4>
 
