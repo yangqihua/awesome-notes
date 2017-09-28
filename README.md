@@ -43,7 +43,6 @@ firewall-cmd --zone=public --remove-port=80/tcp --permanent
 ```
 
 <h4>2.mysql安装卸载，配置相关</h4>
-
 1.mysql重启: /etc/init.d/mysqld restart  
 2.卸载mysql:<br>
 (1).yum remove mysql*
