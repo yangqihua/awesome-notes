@@ -165,4 +165,3 @@ yum install php55w  php55w-bcmath php55w-cli php55w-common  php55w-devel php55w-
 	- 11: 将本地commit强行覆盖远程仓库，这类操作比较比较危险，例如：在你的commit 3之后别人又提交了新的commit 4，那在你强制推送之后，那位仁兄的commit 4也跟着一起消失了。 ``` git push --force ```
 	- 12: 强行将远程代码覆盖本地代码，``` git fetch --all ```,``` git reset --hard origin/master ```,``` git fetch ```,下载远程最新的， 然后，``` git reset master ```,分支重置
 	- 13: 让.gitignore文件生效：``` git rm -r --cached . ``` , ``` git add . ``` , ``` git commit -m 'update .gitignore' ```。
-	
