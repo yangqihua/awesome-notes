@@ -118,7 +118,6 @@ yum install php55w  php55w-bcmath php55w-cli php55w-common  php55w-devel php55w-
 
 目前php55w-mcrypt可能使用不了，可以考虑：
 
-
 yum install php55w  php55w-bcmath php55w-cli php55w-common  php55w-devel php55w-fpm    php55w-gd php55w-imap  php55w-ldap php55w-mbstring php55w-mysql   php55w-odbc   php55w-pdo   php55w-pear  php55w-pecl-igbinary  php55w-xml php55w-xmlrpc php55w-opcache php55w-intl php55w-pecl-memcache
 
 
